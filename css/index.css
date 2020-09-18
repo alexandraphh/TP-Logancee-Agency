@@ -4,37 +4,84 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+
 }
+/*HEADER*/
 header {
   background-image: url("../assets/img/blacklion.jpg");
   background-repeat: no-repeat;
   background-size: contain;
-  height: 3100px;
+  height: 1150px;
+}
+.navBar {
+  display: flex;
+  justify-content: space-between;
 }
 .logo {
   padding: 35px;
 }
-.logo span, .titleZone h1{
+.logo h1, .titleZone h2{
   color: white;
   font-size: 30px;
   font-family: 'Poppins', sans-serif;
 }
-.logo span {
+.logo h1 {
   font-size: 30px;
 }
-.titleZone {
-  margin: 300px 0px 0px 200px;
+.burgerMenu img{
+  width: 40px;
+  margin: 30px
 }
-.titleZone h1 {
+.titleZone {
+  margin: 290px 0px 0px 200px;
+  width: 350px;
+}
+.titleZone h2 {
   font-size: 100px;
   padding: 25px 0px 25px 0px;
 }
-.titleZone p {
+.titleZone span, .titleZone p{
   color: grey;
 }
-.titleZone p:nth-child(1) {
-  letter-spacing: 1px;
-  text-decoration: bolder;
+.titleZone span {
+  letter-spacing: 2px;
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
+}
+/*MAIN*/
+.centralColumn-articles {
+  width: 65%;
+  margin: 0 auto;
+  padding: 100px;
+}
+.aboutUsZone {
+  display: flex;
+}
+.aboutUs-text {
+  width: 50%;
+}
+.aboutUsTitle {
+  letter-spacing: 2px;
+  color: grey;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.aboutUs-text h3 {
+  width: 70%;
+  font-weight: bolder;
+  font-size: 60px;
+  padding: 30px 0px 30px 0px;
+}
+.aboutUs-text p {
+  color: grey;
+  width: 62%;
+  margin: 0 auto;
+}
+.aboutUsPhoto {
+  width: 50%;
+  background-color: #F4F5F5;
+  justify-content: right;
+}
+.aboutUsPhoto img {
+  float: right;
 }
