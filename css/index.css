@@ -181,3 +181,25 @@ h4, h5{
   width: 100%;
   height: 100%;
 }
+/*footer*/
+footer {
+  background-color: black;
+  font-family: 'Poppins', sans-serif;
+  height: 200px;
+  text-align: center;
+}
+footer span {
+  color: white;
+  padding-top: 200px;
+  width: 100px;
+  display: inline;
+}
+.footerIcons {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.footerIcons img{
+  width: 30px;
+  padding:10px;
+}
