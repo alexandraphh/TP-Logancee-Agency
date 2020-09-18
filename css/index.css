@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+@import "reset.css";
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  background-image: url("../assets/img/blacklion.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 3100px;
+}
+.logo {
+  padding: 35px;
+}
+.logo span, .titleZone h1{
+  color: white;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+.logo span {
+  font-size: 30px;
+}
+.titleZone {
+  margin: 300px 0px 0px 200px;
+}
+.titleZone h1 {
+  font-size: 100px;
+  padding: 25px 0px 25px 0px;
+}
+.titleZone p {
+  color: grey;
+}
+.titleZone p:nth-child(1) {
+  letter-spacing: 1px;
+  text-decoration: bolder;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
