@@ -49,18 +49,26 @@ header {
   font-size: 20px;
 }
 /*MAIN*/
+/*1ER ARTCILE*/
 .centralColumn-articles {
   width: 65%;
   margin: 0 auto;
   padding: 100px;
 }
-.aboutUsZone {
+.aboutUsZone, .whatWeDoZone {
   display: flex;
+}
+.whatWeDoZone {
+  margin-top: 100px;
 }
 .aboutUs-text {
   width: 50%;
 }
-.aboutUsTitle {
+.whatWeDo-text {
+  text-align: right;
+  width: 50%;
+}
+.aboutUsTitle, .whatWeDoTitle {
   letter-spacing: 2px;
   color: grey;
   font-weight: bolder;
@@ -72,16 +80,39 @@ header {
   font-size: 60px;
   padding: 30px 0px 30px 0px;
 }
+h4 {
+  font-weight: bolder;
+  font-size: 60px;
+  padding: 30px 0px 30px 0px;
+}
+.aboutUs-text p {
+  margin: 0 auto;
+}
 .aboutUs-text p {
   color: grey;
   width: 62%;
-  margin: 0 auto;
+  text-align: right;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.whatWeDo-text p {
+  color: grey;
+  padding-left: 180px;
+  text-align: right;
+  line-height: 30px;
+  margin-bottom: 20px;
 }
 .aboutUsPhoto {
   width: 50%;
   background-color: #F4F5F5;
   justify-content: right;
 }
-.aboutUsPhoto img {
+.whatWeDoPhoto {
+  width: 50%;
+  background-color: #F4F5F5;
+}
+.aboutUsPhoto img, .whatWeDoText img {
   float: right;
 }
+/*2EME ARTICLE*/
+
